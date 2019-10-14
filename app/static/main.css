@@ -1,0 +1,111 @@
+.main-image {
+  background-image:url("imac.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0,0,0, 1);
+}
+
+.display {
+  font-size: 56px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+  .circle-image {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media screen and (min-width: 601px) {
+  .circle-image {
+    right: 80px;
+  }
+}
+.circle-image {
+  background-image:url("me.jpeg");
+  background-size:100% 100%;
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  border: 2px solid #000;
+  z-index: 10;
+  position:fixed;
+  bottom: 5%;
+}
+
+.intro {
+  font-weight: 500;
+  margin-top: 100px;
+  padding-left:16px;
+  padding-right: 16px;
+}
+
+.divider {
+  border: 1px solid #888888;
+  height:190%;
+  margin: 0 24px;
+}
+
+.centered {
+  width: 900px;
+  margin:auto;
+  margin-top:24px;
+}
+
+.triple-margin {
+  margin: 24px;
+}
+
+.letter{
+  font-weight: 700;
+  font-size: 3em;
+  margin: 0.5em;
+  position: relative;
+  transform-style: preserve-3d;
+}
+.letter:before, .letter:after{
+  position:absolute;
+  content: attr(data-letter);
+  transform-origin: top left;
+
+}
+.letter, .letter:before, .letter:after{
+  transition: all 0.3s ease-in-out;
+}
+.letter:before{
+  color: #fff;
+  text-shadow:
+    -1px 0px 1px rgba(255,255,255,.8),
+    1px 0px 1px rgba(0,0,0,.8);
+  z-index: 3;
+  transform:
+    rotateX(0deg)
+    rotateY(-15deg)
+    rotateZ(0deg);
+}
+.letter:after{
+  color: rgba(0,0,0,.11);
+  z-index:2;
+  transform:
+    scale(1.08,1)
+    rotateX(0deg)
+    rotateY(0deg)
+    rotateZ(0deg)
+    skew(0deg,1deg);
+}
+.letter:hover:before{
+  color: #fafafa;
+  transform:
+    rotateX(0deg)
+    rotateY(-40deg)
+    rotateZ(0deg);
+}
+.letter:hover:after{
+  transform:
+    scale(1.08,1)
+    rotateX(0deg)
+    rotateY(40deg)
+    rotateZ(0deg)
+    skew(0deg,22deg);
+}
