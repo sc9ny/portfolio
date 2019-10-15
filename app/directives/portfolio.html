@@ -1,169 +1,257 @@
-<md-content layout-fill layout=column>
+<md-content layout-fill>
   <md-tabs layout-fill>
     <md-tab label="HOME">
-      <md-tab-body >
-        <div class="md-margin" flex layout="column" layout-fill>
-          <div class="main-image" flex="40" layout="column" layout-align="center center">
-            <div layout="row" layout-align="center center" flex="20">
-              <span class="letter" data-letter="코">
-              </span>
-              <span class="letter" data-letter="딩">
-              </span>
-              <span class="letter" data-letter="꿀">
-              </span>
-              <span class="letter" data-letter="잼">
-              </span>
-              <span class="letter" data-letter="!">
-              </span>
+      <md-tab-body>
+        <div class="md-margin home-image" layout="column" layout-fill>
+          <div flex layout="column" layout-align="center center">
+            <div class="fast-typewriter">
+              <div>Seunglee's Portfolio</div>
             </div>
-          </div>
-          <div layout="row" layout-align="center center">
-            <div class="circle-image">
+            <div class="typewriter">
+              <div>Software Engineer</div>
             </div>
           </div>
 
-          <div class="intro centered" layout="column" layout-align="center center">
-            <span>
-               I'm Seunglee - a full-stack developer at Parsons Corporation in
-               Centreville, VA. As a junior developer, I enjoy tackling new problems
-               and have confidence in every line of my code.
-            </span>
-          </div>
+<!--          <div class="intro centered" layout="row" layout-align="center center" >-->
+<!--            <div flex="70" flex-gt-md="100">-->
+<!--              <span>-->
+<!--                 I'm Seunglee - a full-stack developer specialized in Python (Django ,Flask) and AngularJS.-->
+<!--                 I am currently working at Jacobs as a governemnt contractor with Top Secret clearance.-->
+<!--                 As a developer, I enjoy tackling new problems-->
+<!--                 and have confidence in every line of my code. You can reach me via contact tab above.-->
+<!--              </span>-->
+<!--            </div>-->
+
+<!--          </div>-->
         </div>
       </md-tab-body>
     </md-tab>
-    <md-tab label="BIO">
-      <md-tab-body layout-fill>
-        <div layout-fill layout-gt-sm="row" class="centered">
-          <div class="md-margin" flex-gt-sm="50">
-            <p class="md-title">Seunglee Choi<p>
-            <p>Software engineer experiend in web development, and data analysis,
-               virtual reality
-            </p>
-
-            <p><strong><u>Experience</u></strong></p>
-
-            <span>
-              <strong>Parsons Corporation</strong>, Centreville, VA </br>
-              Full-Stack Software Engineer &mdash; <strong>May 2018-Present</strong>
-            </span>
-            <ul>
-              <li>
-                Containerized platform and its dependencies that eases the
-                setup process and facilitates development cycle
-              </li>
-              <li>REST development using AngularJS, Django and Django Rest Framework</li>
-              <li>Customized layout for documentation using Sphinx</li>
-              <li>Contributed to develop a live update system for the platform
-                using Websocket, Redis, signal and channel in Django</li>
-            </ul>
-
-            <span>
-              <strong>The Visionarium Lab</strong>, Advanced Research Computing,
-               Virginia Polytechnic Institute and State University, Blacksburg, VA
-             </br>
-              Back-End Development Intern &mdash; <strong>Aug 2017 – May 2018</strong>
-            </span>
-            <ul>
-              <li>
-                Configured a MySQL database using Numpy and Pandas in Python for
-                 a webpage to store analyzed human-computer interaction(HCI) data.
-              </li>
-              <li>Developed a Python script to calculates RSSI values in Windows,
-                 Linux and OSX to test the obstacles (e.g. wall, desk) that are
-                 between a router and machine cause any Wi-Fi signal lose.
-              </li>
-              <li>Using .NET framework and Unity, developed and in-house tested
-                Wi-Fi signal visualization system utilizing Microsoft Hololens
-                to find the position that has the maximum signal strength.
-              </li>
-            </ul>
-
-            <span>
-              <strong>National Aeronautics and Space Administration (NASA)</strong>,
-              Goddard Space Flight Center, Greenbelt, MD/Blacksburg, VA
-             </br>
-              Data Analyst Intern/Software Engineer &mdash; <strong>May 2017 – Aug 2017</strong>
-            </span>
-            <ul>
-              <li>
-                Developed and implemented programs in Python as part of a
-                collaborative team of engineers and scientists.
-              </li>
-              <li>Implemented a plotting program using pyplot that is tailored
-                to the dataset format generated by a software to keep the
-                uniformity of plots and increase the efficiency of workflow of
-                the team.
-              </li>
-              <li>Interpolated datasets with missing and
-                invalid data to eliminate any undefined behavior in a graph using
-                the rolling meantechnique, Pandas, and Numpy.
-              </li>
-              <li>
-                Developed a routine within the software for automating the
-                instrument calibration that was previously done manually by
-                integrating the software with a linear slide, relays and a rotational stage.
-              </li>
-            </ul>
+    <md-tab label="ABOUT">
+      <md-body-tab layout-fill>
+        <div layout="column" style="border-top: 1px solid rgba(0, 0, 0, 0.3);">
+          <div style="height:450px;" layout-gt-sm="row">
+            <div layout="row" layout-align="center center" flex flex-gt-sm="30"><h1 class="headline">About me</h1></div>
+            <div layout="column" layout-align-gt-sm="center start" layout-align="center center" flex-gt-sm="40" flex>
+              <h1> Good Developer </h1>
+              <p>
+                I'm always being curious about many different things and enjoy tackling new problems. Because of this personality,
+                software engineering is the perfect job for me. I was fascinated by Javascript and Python due to
+                their possibility and variety for web application development and I am pushing myself to be a better
+                software engineer.
+              </br>
+              </br>
+                I would like to set my goal to be a good developer and keep studying forward. You can naturally become an "experienced developer"
+                as "you get more experience", but to become a "good developer", you need to look up and push yourself forward.
+                I would like to remain as a "good developer" by endless effort"
+              </p>
+            </div>
           </div>
-          <div class="divider" hide show-gt-sm></div>
-          <div class="triple-margin" flex-gt-sm="50">
-            <p><strong><u>Technical Skills</u></strong></p>
-            <ul>
-              <li>
-                Programming Languages: Python, Javascript, C++, C, Java,
-                VHDL, SQL, and HTML/CSS
-              </li>
-              <li>Framework: AngularJS, Django, DjangoRest Framework, Sphinx, Webpack</li>
-              <li>
-                Operating System: Windwos, Macintosh, UNIX/Linux, Android
-              </li>
-            </ul>
+          <div style="height:600px; background: #DDDDDD;" layout-gt-sm="row">
+            <div layout="row" layout-align="center center" flex flex-gt-sm="30"><h1 class="skill-headline">Technical Skills</h1></div>
+            <div layout="column" layout-align-gt-sm="center start" layout-align="center center" flex-gt-sm="40" flex>
+              <div>
+                <h1 class="skill-subhead">Languages</h1>
+                <div flex layout="row">
+                  <div>
+                    <img src="/static/icons8-python.svg" class="svg-icons">
+                    <md-tooltip>Python: Expert</md-tooltip>
+                  </div>
+                  <div>
+                    <img src="/static/js.svg" class="svg-icons">
+                    <md-tooltip>Javascript: Intermediate</md-tooltip>
+                  </div>
+                  <div>
+                    <img src="/static/c++.svg" class="svg-icons">
+                    <md-tooltip>C++: Intermediate</md-tooltip>
+                  </div>
+                  <div>
+                    <img src="/static/java.svg" class="svg-icons">
+                    <md-tooltip>Java: Intermediate</md-tooltip>
+                  </div>
+                  <div>
+                    <img src="/static/c.svg" class="svg-icons">
+                    <md-tooltip>C: Basic</md-tooltip>
+                  </div>
 
-            <p><strong><u>Education</u></strong></p>
+                </div>
+                <h1 class="skill-subhead">Framework</h1>
+                <div layout="row" flex>
+                  <div>
+                    <img src="/static/django.svg" class="svg-icons">
+                    <md-tooltip>Django: Expert</md-tooltip>
+                  </div>
+                  <div>
+                    <img src="/static/angularjs.svg" class="svg-icons">
+                    <md-tooltip>AngularJS: Expert</md-tooltip>
+                  </div>
+                  <div>
+                    <img src="/static/flask.svg" class="svg-icons">
+                    <md-tooltip>Flask: Intermediate</md-tooltip>
+                  </div>
+                </div>
+                <h1 class="skill-subhead">Database</h1>
+                <div layout="row" flex>
+                  <div>
+                    <img src="/static/mysql.svg" class="svg-icons">
+                    <md-tooltip>Mysql: Intermediate</md-tooltip>
+                  </div>
+                  <div>
+                    <img src="/static/mongo.svg" class="svg-icons">
+                    <md-tooltip>MongoDB: Intermediate</md-tooltip>
+                  </div>
+                  <div>
+                    <img src="/static/postgres.svg" class="svg-icons">
+                    <md-tooltip>Postgresql: Basic</md-tooltip>
+                  </div>
 
-            <span>
-              <span class="md-subhead"><strong>Virginia PolyTechnic Institute and State University</strong></span>,
-               Blacksburg, VA </br>
-              <u>Bachelor of Science in Computer Engineeringr &mdash; May 2018</u>
-            </span>
-            <ul>
-              <li>
-                Minors: Mathematics
-              </li>
-              <li><u>Honors and Awards</u>: Powell Scholarship, Presidential Scholarship</li>
-            </ul>
-
-            <p><strong><u>Projects</u></strong></p>
-            <ul>
-              <li>
-                Beetle Forum (In progress) – developing a website that promotes
-                beetle rearing hobby in the United States that utilizes Django,
-                Django Rest Framework for backend and AngularJS for frontend.
-              </li>
-              <li>Senior Design Project – Implemented a sensor thread (task) on
-                PIC32MX in an embedded system utilizing FreeRTOS.
-                Infrared Distance sensor, and Pixy camera were used for two rover
-                 systems where one rover (with sensor implementation) follows
-                 the other (controlled by a controller).
-              </li>
-              <li>
-                In Python, developed a multiplayer supporting Tetris game that
-                plays on Android platform (clients) using a Raspberry Pi
-                as a server. Up to four Android phones were connected using socket Mechanism.
-              </li>
-              <li>
-                Implemented an Android Application in JAVA where program suggest
-                 users what to eat in Blacksburg Area.
-             </li>
-            </ul>
-            <p><strong><u>Projects</u></strong></p>
-            <ul>
-              <li>English – Native or bilingual proficiency</li>
-              <li>Korean – Native or bilingual proficiency</li>
-            </ul>
+                </div>
+                <h1 class="skill-subhead">Others</h1>
+                <div layout="row" flex>
+                  <div>
+                    <img src="/static/html.svg" class="svg-icons">
+                  </div>
+                  <div>
+                    <img src="/static/css.svg" class="svg-icons">
+                  </div>
+                  <div>
+                    <img src="/static/api.svg" class="svg-icons">
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+          <div style="height:450px;">Hello</div>
         </div>
+<!--        <div layout-fill layout-gt-sm="row" class="centered">-->
+<!--          <div class="md-margin" flex-gt-sm="50">-->
+<!--            <p class="md-title">Seunglee Choi<p>-->
+<!--            <p>Software engineer experiend in web development, and data analysis,-->
+<!--               virtual reality-->
+<!--            </p>-->
+
+<!--            <p><strong><u>Experience</u></strong></p>-->
+
+<!--            <span>-->
+<!--              <strong>Parsons Corporation</strong>, Centreville, VA </br>-->
+<!--              Full-Stack Software Engineer &mdash; <strong>May 2018-Present</strong>-->
+<!--            </span>-->
+<!--            <ul>-->
+<!--              <li>-->
+<!--                Containerized platform and its dependencies that eases the-->
+<!--                setup process and facilitates development cycle-->
+<!--              </li>-->
+<!--              <li>REST development using AngularJS, Django and Django Rest Framework</li>-->
+<!--              <li>Customized layout for documentation using Sphinx</li>-->
+<!--              <li>Contributed to develop a live update system for the platform-->
+<!--                using Websocket, Redis, signal and channel in Django</li>-->
+<!--            </ul>-->
+
+<!--            <span>-->
+<!--              <strong>The Visionarium Lab</strong>, Advanced Research Computing,-->
+<!--               Virginia Polytechnic Institute and State University, Blacksburg, VA-->
+<!--             </br>-->
+<!--              Back-End Development Intern &mdash; <strong>Aug 2017 – May 2018</strong>-->
+<!--            </span>-->
+<!--            <ul>-->
+<!--              <li>-->
+<!--                Configured a MySQL database using Numpy and Pandas in Python for-->
+<!--                 a webpage to store analyzed human-computer interaction(HCI) data.-->
+<!--              </li>-->
+<!--              <li>Developed a Python script to calculates RSSI values in Windows,-->
+<!--                 Linux and OSX to test the obstacles (e.g. wall, desk) that are-->
+<!--                 between a router and machine cause any Wi-Fi signal lose.-->
+<!--              </li>-->
+<!--              <li>Using .NET framework and Unity, developed and in-house tested-->
+<!--                Wi-Fi signal visualization system utilizing Microsoft Hololens-->
+<!--                to find the position that has the maximum signal strength.-->
+<!--              </li>-->
+<!--            </ul>-->
+
+<!--            <span>-->
+<!--              <strong>National Aeronautics and Space Administration (NASA)</strong>,-->
+<!--              Goddard Space Flight Center, Greenbelt, MD/Blacksburg, VA-->
+<!--             </br>-->
+<!--              Data Analyst Intern/Software Engineer &mdash; <strong>May 2017 – Aug 2017</strong>-->
+<!--            </span>-->
+<!--            <ul>-->
+<!--              <li>-->
+<!--                Developed and implemented programs in Python as part of a-->
+<!--                collaborative team of engineers and scientists.-->
+<!--              </li>-->
+<!--              <li>Implemented a plotting program using pyplot that is tailored-->
+<!--                to the dataset format generated by a software to keep the-->
+<!--                uniformity of plots and increase the efficiency of workflow of-->
+<!--                the team.-->
+<!--              </li>-->
+<!--              <li>Interpolated datasets with missing and-->
+<!--                invalid data to eliminate any undefined behavior in a graph using-->
+<!--                the rolling meantechnique, Pandas, and Numpy.-->
+<!--              </li>-->
+<!--              <li>-->
+<!--                Developed a routine within the software for automating the-->
+<!--                instrument calibration that was previously done manually by-->
+<!--                integrating the software with a linear slide, relays and a rotational stage.-->
+<!--              </li>-->
+<!--            </ul>-->
+<!--          </div>-->
+<!--          <div class="divider" hide show-gt-sm></div>-->
+<!--          <div class="triple-margin" flex-gt-sm="50">-->
+<!--            <p><strong><u>Technical Skills</u></strong></p>-->
+<!--            <ul>-->
+<!--              <li>-->
+<!--                Programming Languages: Python, Javascript, C++, C, Java,-->
+<!--                VHDL, SQL, and HTML/CSS-->
+<!--              </li>-->
+<!--              <li>Framework: AngularJS, Django, DjangoRest Framework, Sphinx, Webpack</li>-->
+<!--              <li>-->
+<!--                Operating System: Windwos, Macintosh, UNIX/Linux, Android-->
+<!--              </li>-->
+<!--            </ul>-->
+
+<!--            <p><strong><u>Education</u></strong></p>-->
+
+<!--            <span>-->
+<!--              <span class="md-subhead"><strong>Virginia PolyTechnic Institute and State University</strong></span>,-->
+<!--               Blacksburg, VA </br>-->
+<!--              <u>Bachelor of Science in Computer Engineeringr &mdash; May 2018</u>-->
+<!--            </span>-->
+<!--            <ul>-->
+<!--              <li>-->
+<!--                Minors: Mathematics-->
+<!--              </li>-->
+<!--              <li><u>Honors and Awards</u>: Powell Scholarship, Presidential Scholarship</li>-->
+<!--            </ul>-->
+
+<!--            <p><strong><u>Projects</u></strong></p>-->
+<!--            <ul>-->
+<!--              <li>-->
+<!--                Beetle Forum (In progress) – developing a website that promotes-->
+<!--                beetle rearing hobby in the United States that utilizes Django,-->
+<!--                Django Rest Framework for backend and AngularJS for frontend.-->
+<!--              </li>-->
+<!--              <li>Senior Design Project – Implemented a sensor thread (task) on-->
+<!--                PIC32MX in an embedded system utilizing FreeRTOS.-->
+<!--                Infrared Distance sensor, and Pixy camera were used for two rover-->
+<!--                 systems where one rover (with sensor implementation) follows-->
+<!--                 the other (controlled by a controller).-->
+<!--              </li>-->
+<!--              <li>-->
+<!--                In Python, developed a multiplayer supporting Tetris game that-->
+<!--                plays on Android platform (clients) using a Raspberry Pi-->
+<!--                as a server. Up to four Android phones were connected using socket Mechanism.-->
+<!--              </li>-->
+<!--              <li>-->
+<!--                Implemented an Android Application in JAVA where program suggest-->
+<!--                 users what to eat in Blacksburg Area.-->
+<!--             </li>-->
+<!--            </ul>-->
+<!--            <p><strong><u>Projects</u></strong></p>-->
+<!--            <ul>-->
+<!--              <li>English – Native or bilingual proficiency</li>-->
+<!--              <li>Korean – Native or bilingual proficiency</li>-->
+<!--            </ul>-->
+<!--          </div>-->
+<!--        </div>-->
       </md-body-tab>
     </md-tab>
     <md-tab label="CONTACT">
@@ -217,7 +305,7 @@
               </md-input-container>
               <div layout="row">
                 <md-button ng-disabled="emailForm.$invalid || $ctrl.submitted" class="md-raised" flex="10"
-                  ng-click="$ctrl.handleFormSubmit()"">
+                  ng-click="$ctrl.handleFormSubmit()">
                     Send
                 </md-button>
               </div>
