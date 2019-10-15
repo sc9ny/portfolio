@@ -200,3 +200,31 @@
   height:64px;
   margin-right:15px;
 }
+
+.card-photos {
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .card-photos {
+    object-fit: cover;
+  }
+}
+
+.card-anchor {
+  text-decoration: none;
+}
+
+md-list-item .md-avatar {
+  border-radius: 0;
+}
+
+md-list md-list-item.md-3-line .md-list-item-text p li {
+  color: rgba(0,0,0,0.54);
+}
+
+.no-list-display {
+  color: rgba(0,0,0,0.54);
+}

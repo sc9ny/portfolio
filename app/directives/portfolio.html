@@ -29,7 +29,7 @@
     <md-tab label="ABOUT">
       <md-body-tab layout-fill>
         <div layout="column" style="border-top: 1px solid rgba(0, 0, 0, 0.3);">
-          <div style="height:450px;" layout-gt-sm="row">
+          <div layout-gt-sm="row" >
             <div layout="row" layout-align="center center" flex flex-gt-sm="30"><h1 class="headline">About me</h1></div>
             <div layout="column" layout-align-gt-sm="center start" layout-align="center center" flex-gt-sm="40" flex>
               <h1> Good Developer </h1>
@@ -40,14 +40,14 @@
                 software engineer.
               </br>
               </br>
-                I would like to set my goal to be a good developer and keep studying forward. You can naturally become an "experienced developer"
-                as "you get more experience", but to become a "good developer", you need to look up and push yourself forward.
-                I would like to remain as a "good developer" by endless effort"
+                I would like to set my goal to be a good developer. You can naturally become an "experienced developer"
+                as "you get more experience", but to become a "good developer", you need to set a high standard,
+                put endless effort and push yourself forward. I am going to be and remain as a good developer.
               </p>
             </div>
           </div>
-          <div style="height:600px; background: #DDDDDD;" layout-gt-sm="row">
-            <div layout="row" layout-align="center center" flex flex-gt-sm="30"><h1 class="skill-headline">Technical Skills</h1></div>
+          <div style="background: #DDDDDD;" layout-gt-sm="row">
+            <div layout="row" layout-align="center center" flex flex-gt-sm="30"><h1 class="skill-headline">Technical skills</h1></div>
             <div layout="column" layout-align-gt-sm="center start" layout-align="center center" flex-gt-sm="40" flex>
               <div>
                 <h1 class="skill-subhead">Languages</h1>
@@ -109,18 +109,181 @@
                 <div layout="row" flex>
                   <div>
                     <img src="/static/html.svg" class="svg-icons">
+                    <md-tooltip>HTML</md-tooltip>
                   </div>
                   <div>
                     <img src="/static/css.svg" class="svg-icons">
+                    <md-tooltip>CSS</md-tooltip>
                   </div>
                   <div>
                     <img src="/static/api.svg" class="svg-icons">
+                    <md-tooltip>REST</md-tooltip>
+                  </div>
+                  <div>
+                    <img src="/static/rpi.svg">
+                    <md-tooltip>Raspberry Pi</md-tooltip>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div style="height:450px;">Hello</div>
+          <div layout="column" layout-gt-sm="row" style="background:#FCF6F5FF;">
+            <div layout="row" layout-gt-sm="column" layout-align="center center" flex flex-gt-sm="30"><h1 class="skill-headline">Projects</h1></div>
+            <div layout="column" layout-align-gt-sm="center start" layout-align="center center" flex-gt-sm="50" flex>
+              <a class="card-anchor" href="https://github.com/sc9ny/beetle">
+                <md-card layout="row" class="uniform-card-height" flex>
+                  <div flex-gt-sm="30" flex>
+                    <img flex src="/static/diolama.jpg" class="md-card-image card-photos">
+                  </div>
+                  <div flex="70">
+                    <md-card-title><span class="md-headline">Beetle Forum</span></md-card-title>
+                    <md-card-content>
+                      Work in Progress; This website is to promote beetle rearing hobby in the United States.</br></br>
+                      Backend: Python3 - Django, Django Rest Framework, Channels </br>
+                      Frontend: AngularJS
+
+                    </md-card-content>
+                  </div>
+                </md-card>
+              </a>
+              <a class="card-anchor" href="https://github.com/sc9ny/Hololens">
+                <md-card flex layout="row" class="uniform-card-height">
+                  <div flex-gt-sm="30" flex>
+                    <img flex src="/static/hololens.jpg" class="md-card-image card-photos">
+                  </div>
+                  <div flex="70">
+                    <md-card-title><span class="md-headline">VR WIFI Signal Analysis</span></md-card-title>
+                    <md-card-content>
+                      Visualize wifi signal in virtual reality on Microsoft Hololens.</br>
+                      Demo link available on github page</br></br>
+                      Backend: C# </br>
+                      Frontend: Unity
+
+                    </md-card-content>
+                  </div>
+                </md-card>
+              </a>
+              <a class="card-anchor" href="https://github.com/sc9ny/Senior_design">
+                <md-card flex layout="row" class="uniform-card-height">
+                  <div flex-gt-sm="30" flex>
+                    <img flex src="/static/chips.jpg" class="md-card-image card-photos">
+                  </div>
+                  <div flex="70">
+                    <md-card-title><span class="md-headline">Senior Capstone Sensor Implementation</span></md-card-title>
+                    <md-card-content>
+                      IR distance sensor and Pixy Camera Implementation for Senior Capstone Project.
+                      The project involved two rovers which the leading rover was controlled by a Xbox controller and the second rover
+                      was to follow the leading rover.
+                      </br></br>
+                      Backend: C </br>
+                      Pixy Camera: To detect the direction of turn based on the color code  attached on the leading rover</br>
+                      IR distance sensor: To measure at which point the leading rover has turned
+
+                    </md-card-content>
+                  </div>
+                </md-card>
+              </a>
+
+            </div>
+          </div>
+
+          <div layout-gt-sm="row" layout="column" style="padding-top:15px;">
+            <div layout="row" layout-gt-sm="column" layout-align="center center" flex flex-gt-sm="30"><h1 class="skill-headline">Job experience</h1></div>
+            <div layout="column" layout-align-gt-sm="center start" layout-align="center center" flex-gt-sm="50" flex>
+              <md-list flex>
+                <md-list-item class="md-3-line md-long-text">
+                  <img src="/static/jacobs.png" class="md-avatar">
+                  <div class="md-list-item-text" layout="column">
+                    <h3>Software Engineer</h3>
+                    <h4>Jacobs</h4>
+                    <p>
+                      Sep 2019 &mdash; Present
+                      <ul class="no-list-display">
+                        <li>Configured AngularJS routing for SPA workflow</li>
+                        <li> Implemented REST endpoint in Flask </li>
+                      </ul>
+                      Development using Flask and AngularJS
+                    </p>
+                  </div>
+                </md-list-item>
+                <md-list-item class="md-3-line md-long-text">
+                  <img src="/static/parsons.png" class="md-avatar">
+                  <div class="md-list-item-text" layout="column">
+                    <h3>Software Engineer</h3>
+                    <h4>Parsons Corporation</h4>
+                    <p>
+                    May 2018 &mdash; Aug 2019
+                    <ul class="no-list-display">
+                      <li>
+                        Containerized platform and its dependencies that eases the
+                        setup process and facilitates development cycle
+                      </li>
+                      <li>REST development using AngularJS, Django and Django Rest Framework</li>
+                      <li>Customized layout for documentation using Sphinx</li>
+                      <li>Contributed to develop a live update system for the platform
+                        using Websocket, Redis, signal and channel in Django</li>
+                    </ul>
+
+                    </p>
+                  </div>
+                </md-list-item>
+                <md-list-item class="md-3-line md-long-text">
+                  <img src="/static/vt.png" class="md-avatar">
+                  <div class="md-list-item-text" layout="column">
+                    <h3>Backend Developer - Intern</h3>
+                    <h4>Virginia Tech</h4>
+                    <p>
+                      Aug 2018 &mdash; May 2018
+                      <ul class="no-list-display">
+                        <li>
+                          Configured a MySQL database using Numpy and Pandas in Python for
+                           a webpage to store analyzed human-computer interaction(HCI) data.
+                        </li>
+                        <li>Developed a Python script to calculates RSSI values in Windows,
+                           Linux and OSX to test the obstacles (e.g. wall, desk) that are
+                           between a router and machine cause any Wi-Fi signal lose.
+                        </li>
+                        <li>Using .NET framework and Unity, developed and in-house tested
+                          Wi-Fi signal visualization system utilizing Microsoft Hololens
+                          to find the position that has the maximum signal strength.
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+                </md-list-item>
+                <md-list-item class="md-3-line md-long-text">
+                  <img src="/static/nasa.jpeg" class="md-avatar">
+                  <div class="md-list-item-text" layout="column">
+                    <h3>Data Analyst - Intern</h3>
+                    <h4>NASA Goddard Space Flight center</h4>
+                    <p>
+                      May 2017 &mdash; Aug 2017
+                      <ul class="no-list-display">
+                        <li>
+                          Developed and implemented programs in Python as part of a
+                          collaborative team of engineers and scientists.
+                        </li>
+                        <li>Implemented a plotting program using pyplot that is tailored
+                          to the dataset format generated by a software to keep the
+                          uniformity of plots and increase the efficiency of workflow of
+                          the team.
+                        </li>
+                        <li>Interpolated datasets with missing and
+                          invalid data to eliminate any undefined behavior in a graph using
+                          the rolling meantechnique, Pandas, and Numpy.
+                        </li>
+                        <li>
+                          Developed a routine within the software for automating the
+                          instrument calibration that was previously done manually by
+                          integrating the software with a linear slide, relays and a rotational stage.
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+                </md-list-item>
+              </md-list>
+            </div>
+            </div>
         </div>
 <!--        <div layout-fill layout-gt-sm="row" class="centered">-->
 <!--          <div class="md-margin" flex-gt-sm="50">-->
